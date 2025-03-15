@@ -1,0 +1,17 @@
+{
+  "name": "aws-s3-sdk",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@aws-crypto/sha256-browser": "^5.2.0",
+    "@aws-sdk/hash-node": "^3.374.0",
+    "@aws-sdk/protocol-http": "^3.374.0",
+    "@aws-sdk/s3-request-presigner": "^3.758.0"
+  }
+}
